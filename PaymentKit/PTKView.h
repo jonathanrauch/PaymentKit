@@ -24,6 +24,7 @@
 @interface PTKView : UIView
 
 - (BOOL)isValid;
+- (void)checkValid;
 
 @property (nonatomic, readonly) UIView *opaqueOverGradientView;
 @property (nonatomic, readonly) PTKCardNumber *cardNumber;
